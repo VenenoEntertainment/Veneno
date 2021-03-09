@@ -6,9 +6,13 @@
     <meta name="description" content="">
     <title>Roupas</title>
     <link rel="icon" href="escorpião.ico" type="image/icon type">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
     <!-- Bootstrap core CSS -->
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/product.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js" type="text/javascript"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script><link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -24,40 +28,40 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
+  
   </head>
   <body>
     
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Veneno</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="Veneno.html">Portal</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="Jogos.html">Jogos</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link active" href="Albuns.html" tabindex="-1" aria-disabled="true">Albuns</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link active" href="Roupas.html" tabindex="-1" aria-disabled="true">Roupas</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Veneno.html"><img src="img/escorpião.ico" width="50" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="Veneno.html">Portal</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="Albuns.html" tabindex="-1" aria-disabled="true">Albuns</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Jogos.html">Jogos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="Roupas.html" tabindex="-1" aria-disabled="true">Roupas</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 <main>
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -91,51 +95,54 @@
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
-        <h2 class="display-5">Bermuda Verde</h2>
+        <h2 class="display-5">Polo Verde</h2>
         <p class="lead">Bolsos para seus pertences</p>
       </div>
       <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
-    <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
       <div class="my-3 py-3">
-        <h2 class="display-5">Bermuda Roxa</h2>
-        <p class="lead">Bolso para seus pertences</p>
+        <h2 class="display-5">Polo Roxa</h2>
+        <p class="lead">Bolsos para seus pertences</p>
       </div>
       <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Tenis Verde</h2>
-        <p class="lead">And an even wittier subheading.</p>
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Manga Larga Verde</h2>
+        <p class="lead">Estampa Assasinato Chapéu de cone</p>
+        <p class="sublead">Nenhuma supremacia deve ser respeitada</p>
+        <p class="sublead"></p>
       </div>
-      <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Tenis Roxa</h2>
-        <p class="lead">And an even wittier subheading.</p>
+      <div class="my-3 p-3">
+        <h2 class="display-5">Manga Larga Roxa</h2>
+        <p class="lead">Estampa Assasinato Chapéu de cone</p>
+        <p class="sublead">Nenhuma supremacia deve ser respeitada</p>
       </div>
-      <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
+        <h2 class="display-5">Moletom Verde</h2>
+        <p class="lead">Bolsos para seus pertences</p>
       </div>
-      <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
       <div class="my-3 py-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
+        <h2 class="display-5">Moletom Roxa</h2>
+        <p class="lead">Bolsos para seus pertences</p>
       </div>
-      <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
   </div>
 </main>
@@ -186,10 +193,6 @@
     </div>
   </div>
 </footer>
-
-
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      
-  </body>
+</body>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>

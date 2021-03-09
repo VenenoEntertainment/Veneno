@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>Portal Veneno</title>
-    <link rel="icon" href="escorpião.ico" type="image/icon type">
+    <link rel="icon" href="img/escorpião.ico" type="image/icon type">
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script><link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -34,7 +35,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Veneno</a>
+      <a class="navbar-brand" href="#"><img src="img/escorpião.ico" width="50" height="50"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,10 +45,10 @@
             <a class="nav-link" aria-current="page" href="Veneno.html">Portal</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="Jogos.html">Jogos</a>
+            <a class="nav-link active" href="Albuns.html" tabindex="-1" aria-disabled="true">Albuns</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link active" href="Albuns.html" tabindex="-1" aria-disabled="true">Albuns</a>
+            <a class="nav-link" href="Jogos.html">Jogos</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link active" href="Roupas.html" tabindex="-1" aria-disabled="true">Roupas</a>
@@ -73,12 +74,12 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/NYBV6787.png" class="img-fluid">
+       <!--<img src="img/NYBV6787.png" class="img-fluid">-->
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Apocalipse</h1>
-            <p>Voce consegue sobreviver a este apocalipse zumbi, e manter o maximo de recursos durante sua sobrevivencia?</p>
+            <h1>Roupas Venenosas</h1>
+            <p>Seu estilo pode mudar sua vida, tenha uma apresentação bonita e confortavel para aumentar sua autoestima.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Vamos nessa</a></p>
           </div>
         </div>
@@ -98,9 +99,9 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Convide seus amigos</h1>
-            <p>Sobreviver a um apolicapse zumbi é um verdadeiro desafio divida seu trabalho com uma equipe de amigos</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Convidar</a></p>
+            <h1>Jogos</h1>
+            <p>Tente a sorte em minijogos com chances de ganhar cupons de desconto para suas compras no portal Veneno.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Hoje é meu dia</a></p>
           </div>
         </div>
       </div>
@@ -109,9 +110,9 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>quatro</h1>
-            <p>Sobreviver a um apolicapse zumbi é um verdadeiro desafio divida seu trabalho com uma equipe de amigos</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Convidar</a></p>
+            <h1>Ajude o planeta Terra</h1>
+            <p>Diminuir o impacto dos problemas ambientais que nosso planeta sofre nos ajuda a redescobrir novas formas de amor.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Quero Doar</a></p>
           </div>
         </div>
       </div>
@@ -136,23 +137,23 @@
         
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" ></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Construa suas armas</h2>
-        <p>Oficinas estão espalhado por todo o mapa, com os recursos certos é possivel aprimorar sua arma</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Veja o arsenal &raquo;</a></p>
+        <h2>Promoção da mês</h2>
+        <p>Essa peça está mais barata nesse mês, separamos esse modelo para você , corra para não perder a oportunidade!!!</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Veja a Promoção &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <svg class="bd-placeholder-img rounded-circle"  width="250" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Adquira peças especiais</h2>
-        <p>Ao completar os desafios do mapa as recompensas são imensas e você pode adquirar peças.... estranhas.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Veja as receitas &raquo;</a></p>
+        <h2>Adquira uma peça gratuita</h2>
+        <p>Ao levar mais de 3 peças as recompensas são imensas e você pode adquirar peças.... GRATUITAS.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Veja nossas roupas &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Minijogos</h2>
-        <p>Divirta-se enquanto sobrevive ao apocalipse zumbi, afinal de contas de diversão nunca é demais!!!.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">Veja detalhes &raquo;</a></p>
+        <p>Divirta-se enquanto concorre a brindes e promoções para seu bolso economizar nunca é demais!!!.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Confira nossos jogos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -164,7 +165,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Aeon Tempo <span class="text-muted">Um classico com uma roupagem nova</span></h2>
-        <p class="lead">Uma partida de pong alem de ser nostalgica pode ajudar voce a avançar dentro do jogo.</p>
+        <p class="lead">Tem uma track boa e gostaria de ter suporte para poder vender sua musica, publique em nossa galeria de musicas.</p>
       </div>
       <div class="col-md-5">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -176,7 +177,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Bob Waterstyle <span class="text-muted">Sinta o orbe</span></h2>
-        <p class="lead"></p>
+        <p class="lead">Você tem algum passinho de hip-hop e gostaria de mostrar para o mundo? Libere essa energia do corpo.</p>
       </div>
       <div class="col-md-5 order-md-1">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -188,8 +189,8 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Akemy Blaze <span class="text-muted">Venenoso!!!</span></h2>
-        <p class="lead">Encontre discos escondidos e analise seus códigos para poder liberar o download do MP3 no nosso site.</p>
+        <h2 class="featurette-heading">Akemy Blaze <span class="text-muted">A fúria do fogo!!</span></h2>
+        <p class="lead">Queime os papeis com a tinta de fogo dos seus lapis de colorir para descobrir novas artes e mostrar para o mundo na galeria da Akemy Blaze.</p>
       </div>
       <div class="col-md-5">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -200,8 +201,8 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Bob Waterstyle <span class="text-muted">Sinta o orbe</span></h2>
-        <p class="lead"></p>
+        <h2 class="featurette-heading">Anima Vento<span class="text-muted"> Solta a voz!!</span></h2>
+        <p class="lead">Escreva poesias que tocam o coração das pessoas e grave um video para mostrar para a comunidade.</p>
       </div>
       <div class="col-md-5 order-md-1">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -219,9 +220,51 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Voltar ao topo</a></p>
-    <p>&copy; 2021 Veneno, Entmt. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Cool stuff</a></li>
+          <li><a class="link-secondary" href="#">Random feature</a></li>
+          <li><a class="link-secondary" href="#">Team feature</a></li>
+          <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+          <li><a class="link-secondary" href="#">Another one</a></li>
+          <li><a class="link-secondary" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Resource name</a></li>
+          <li><a class="link-secondary" href="#">Resource</a></li>
+          <li><a class="link-secondary" href="#">Another resource</a></li>
+          <li><a class="link-secondary" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Business</a></li>
+          <li><a class="link-secondary" href="#">Education</a></li>
+          <li><a class="link-secondary" href="#">Government</a></li>
+          <li><a class="link-secondary" href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Team</a></li>
+          <li><a class="link-secondary" href="#">Locations</a></li>
+          <li><a class="link-secondary" href="#">Privacy</a></li>
+          <li><a class="link-secondary" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </main>
 
