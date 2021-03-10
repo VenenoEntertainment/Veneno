@@ -34,7 +34,7 @@ h1 h2 h3 h4 h5 p{
 }
 
 .bd-placeholder-img#id6{
-    background: url("img/blankimage2.png");
+    background: url("img/camisaverdeveneno.Jpg");
     background-size: 105% 105%;
 }
 
@@ -67,6 +67,9 @@ h1 h2 h3 h4 h5 p{
     border-radius: 50%;
 }
 
+.card{
+    margin-bottom: 25px;
+}
 .bg-light{
     background-color: green  !important;
 }
