@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Carrinho</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+  </head>
+  <body class="bg-secondary">
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../estampas/cart.png" alt="" width="72" height="57">
+      <h2>Carrinho</h2>
+      <p class="lead">Faça uma checagem dos produtos que você vai levar.</p>
+    </div>
+    <div class="row-col-1">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Seu carrinho</span>
+          <span class="badge bg-secondary rounded-pill"><h6 class="cartSpan">0</h6></span>
+        </h4>
+        <ul class="list-group mb-3" id="cart">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div class="productHeader">
+              <h6 class="productName">Primeiro Produto</h6>
+              <small class="text-muted">Breve descrição</small>
+            </div>
+            <span class="price">R$10,00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Segundo Produto</h6>
+              <small class="text-muted">Breve descrição</small>
+            </div>
+            <span class="text-muted">R$50,00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Terceiro Produto</h6>
+              <small class="text-muted">Breve descrição</small>
+            </div>
+            <span class="text-muted">R$100,00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-light">
+              <h6 class="my-0">Desconto Coupon</h6>
+              <small>PROMOVENENO</small>
+            </div>
+            <span class="text-light">−R$5,00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (BRL)</span>
+            <strong>R$160,00</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Código Promocional">
+            <button type="submit" class="btn btn-secondary">Clamar</button>
+          </div>
+        </form>
+      </div>
+         <hr class="my-4">
+    </div>
+    <div class="row-col-2">
+          <h4 class="mb-3">Pagamento</h4>
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">Cartão de crédito</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">Cartão de débito</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Nome no cartão</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">Nome inteiro como escrito no cartão</small>
+              <div class="invalid-feedback">
+                Nome no cartão é necessario
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Numero do cartão de crédito</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                Cartão de crédito é necessario
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Data de expiração</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                Data de expiração é necessario
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">Código</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                Codigo de segurança é necessario
+              </div>
+            </div>
+          </div>
+          <hr class="my-4">
+          <button class="w-100 btn btn-secondary btn-lg" type="submit">Continue para pagamento</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2020-2021 Veneno Entertainment</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacidade</a></li>
+      <li class="list-inline-item"><a href="#">Termos</a></li>
+      <li class="list-inline-item"><a href="#">Suporte</a></li>
+    </ul>
+  </footer>
+</div>
+    <script src="../index.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
