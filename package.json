@@ -1,36 +1,43 @@
 {
-  "name": "veneno",
-  "version": "1.0.0",
-  "description": "veneno entertainment",
-  "main": "server.js",
+  "name": "react-site",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-flash": "0.0.2",
-    "express-session": "^1.17.2",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "pg": "^8.7.1",
-    "stripe": "^8.176.0"
-  },
-  "devDependencies": {
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.12"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.1",
+    "firebase": "^10.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^3.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VenenoEntertainment/Veneno.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "Israel Rodrigues",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VenenoEntertainment/Veneno/issues"
-  },
-  "homepage": "https://github.com/VenenoEntertainment/Veneno#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
