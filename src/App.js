@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/home';
-import Products from './components/pages/Products';
+import Home from './components/home';
 import SignUp from './components/pages/SignUp';
 import Records from './components/pages/Records';
-import AboutUs from './components/pages/AboutUs';
 import Login from './components/pages/Login';
-import Navbar from './components/Navbar';
-import Admin from './components/pages/Admin';
+import Shop from './components/pages/shop/shop';
+import Navbar from './components/Navbar/Navbar';
 import {auth, db} from './components/config/Firebase';
-import { StateContext } from './components/StateContext';
-import Cart from './components/Cart';
+import SingleProduct from './components/singleProduct/singleProduct';
+import CartPage from './components/pages/cartPage/cartPage';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 export class App extends Component{
@@ -40,20 +39,16 @@ export class App extends Component{
   render() {
     return(
     <>
-    <StateContext>
-    <Router>
       <Navbar user={this.state.user}/>
       <Routes>      
-        <Route path='/admin' element={<Admin/>}/>
-        <Route path='/' element={<Home/>}/>  
-        <Route path='/products' element={<Products/>}/>
+        <Route exact path='/' element={<Home/>}/>  
+        <Route exact path='/shop' element={<Shop/>}/>
+        <Route exact path='/product/:id' element={<SingleProduct/>}/>
+        <Route exact path='/cart' element={<CartPage/>}/>
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/records' element={<Records/>}/>
-        <Route path='/aboutus' element={<AboutUs/>}/>
       </Routes>
-    </Router>
-    </StateContext> 
     </>
 )};
 }
