@@ -21,3 +21,5 @@ Configure as chaves de API para Stripe, Firebase e Mailchimp.
 Comece a codificar! Adicione novos recursos, corrija bugs ou melhore o design.
 Licença
 Este projeto está licenciado sob a Licença MIT.
+ 
+ 2024
