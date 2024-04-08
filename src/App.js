@@ -11,6 +11,7 @@ import {auth, db} from './components/config/Firebase';
 import SingleProduct from './components/singleProduct/singleProduct';
 import CartPage from './components/pages/cartPage/cartPage';
 import 'bootstrap/dist/css/bootstrap.css';
+import AddProducts from './components/addProduct/addProducts';
 
 
 export class App extends Component{
@@ -41,7 +42,8 @@ export class App extends Component{
     <>
       <Navbar user={this.state.user}/>
       <Routes>      
-        <Route exact path='/' element={<Home/>}/>  
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/addproducts' element={<AddProducts/>}/>  
         <Route exact path='/shop' element={<Shop/>}/>
         <Route exact path='/product/:id' element={<SingleProduct/>}/>
         <Route exact path='/cart' element={<CartPage/>}/>

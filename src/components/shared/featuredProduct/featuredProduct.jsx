@@ -13,8 +13,8 @@ const FeaturedProduct = (props) => {
     const navigate = useNavigate();
 
     return (
-        <div className='featured-product'>
-            <div className='featured-image' onClick={() => navigate(`/product/${id}`)}>
+        <div className='featured-product' onClick={() => navigate(`/product/${id}`)}>
+            <div className='featured-image' >
                 <img src={imageUrl} className='image-holder' alt='product'/>
             </div>
             <div className='name-price'>
