@@ -54,7 +54,7 @@ function Footer() {
                         <img src='images/logo.png' alt='logo'/>
                     </Link>
                 </div>
-                <small className='website-rights'>©Veneno 2023</small>
+                <small className='website-rights'>©Veneno 2024</small>
                 <div className='social-icons'>
                     <Link className='social-icon-link facebook'
                      to='https://www.facebook.com/vnnentmt'
